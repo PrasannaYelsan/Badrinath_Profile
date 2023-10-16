@@ -28,14 +28,14 @@ with contact_details:
     st.markdown("**:black[DON'T BE SHY]**")
     motivational_text = "Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions."
     st.markdown(motivational_text)
-    image = Image.open('.\Images\Mail-icon.png')
-    st.image(image)
+    #image = Image.open('.\Images\Mail-icon.png')
+    #st.image(image)
     st.markdown("Badrinath.deshpande@gmail.com")
-    image_call = Image.open('.\Images\Call.png')
-    st.image(image_call)
+    #image_call = Image.open('.\Images\Call.png')
+    #st.image(image_call)
     st.markdown("**:black[+91 99999 99999]**")
-    image_loc = Image.open('.\Images\Location-icon.png')
-    st.image(image_loc)
+    #image_loc = Image.open('.\Images\Location-icon.png')
+    #st.image(image_loc)
     st.markdown("**:black[Bangalore]**")
 
 with contact_form:
