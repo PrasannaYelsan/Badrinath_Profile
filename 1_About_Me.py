@@ -72,5 +72,5 @@ with image_col:
             switch_page("Contact_Me")
 
 with text_col:
-    image = Image.open('.\blob\main\Images\Badri_new1.png')
+    image = Image.open('.\\blob\main\Images\Badri_new1.png')
     st.image(image, caption='Badrinath Deshpande')
