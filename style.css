@@ -1,0 +1,323 @@
+.type {
+  display:inline-block;
+
+  vertical-align: bottom;
+}
+
+.type > span {
+  color: #14f3db;
+  display:grid;
+  overflow: hidden;
+  height:1.2em;
+}
+
+.type span span {
+  width:0%;
+  max-width:max-content;
+  overflow: hidden;
+  height:inherit;
+  word-break:break-all;
+  animation:
+    c 0.5s infinite steps(1),
+    t 2s linear infinite alternate,
+    m 16s steps(4) infinite;
+}
+.type span span:before {
+  content:" ";
+  display:inline-block;
+}
+
+@keyframes t{
+  90%,100% {width:100%}
+}
+
+@keyframes c{
+  0%,100%{box-shadow:5px 0 0 #0000}
+  50%    {box-shadow:5px 0 0 white}
+}
+
+@keyframes m{
+  100% {transform:translateY(-400%)}
+}
+
+
+body {
+  font-size:40px;
+  margin: 100px auto;
+  margin-left: 50px;
+  color: #EEEEEE;
+  background: #EEEEEE;
+  font-family: sans-serif;
+}
+
+.css-ocqkz7 {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+
+    gap: 0.5rem;
+}
+
+div.css-keje6w.e1f1d6gn1
+{
+  outline-style: 1px;
+  outline-width: 1px;
+  padding: 15px;
+  background : #EEEEEE;
+}
+
+
+div.css-ocqkz7.e1f1d6gn3
+{
+  outline-style: 1px;
+  outline-width: 1px;
+  padding: 0px;
+  background : #EEEEEE;
+
+}
+
+.css-7ym5gk {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 400;
+    padding: 0.25rem 2.75rem;
+    border-radius: 0.5rem;
+    min-height: 38.4px;
+    margin: 0px;
+    line-height: 1.6;
+    color: inherit;
+    width: auto;
+    user-select: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(49, 51, 63, 0.2);
+}
+
+
+@media (min-width: 576px)
+.css-z5fcl4 {
+    padding-left: 1rem;
+    padding-right: 0rem;
+}
+
+block-container.css-z5fcl4.ea3mdgi4 {
+    width: 100%;
+    padding-left: 1rem;
+    padding: 1rem 1rem -24rem;
+    min-width: auto;
+    max-width: initial;
+}
+.css-ykwuo3 {
+    width: 992px;
+    position: relative;
+    display: flex;
+    flex: -7 30 0%;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+div.css-115gedg.e1f1d6gn1 {
+    outline-style: 1px;
+    outline-width: 1px;
+    padding: 0px;
+}
+
+div.css-6qob1r.eczjsme3
+{
+  outline-style: 1px;
+  outline-width: 1px;
+  padding: 15px;
+  background : #EEEEEE;
+}
+
+
+div.css-1629p8f.e1nzilvr1
+{
+    background: #EEEEEE;
+
+}
+
+div.css-5rimss {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-bottom: 0rem;
+}
+
+div.css-z5fcl4 {
+    width: 100%;
+    padding: 3rem 1rem 10rem;
+    min-width: auto;
+    max-width: initial;
+}
+
+div.css-z1xdiu {
+    width: calc(32.2581% - 1rem);
+    flex: 1 0 calc(32.2581% - 19rem);
+}
+
+div.css-zt5igj {
+    position: relative;
+    left: calc(1rem);
+    width: calc(100% + 2.5rem + 0.5rem);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: visible;
+}
+
+
+div.css-5rimss.e1nzilvr4 {
+    position: relative;
+    left: calc(0rem);
+
+}
+
+div.css-gt23cc {
+    width: 813px;
+    position: relative;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    gap: 0rem;
+}
+
+div.css-pmvzy7 {
+    width: 323px;
+    position: relative;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    gap: 0rem;
+}
+div.css-gsmecj {
+    width: 1053px;
+    position: relative;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    gap: 0rem;
+}
+
+h6 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    color: rgb(49, 51, 63);
+    padding: 0px 0px 0rem;
+    margin: 0px;
+    line-height: 1.2;
+}
+
+span.css-10trblm {
+    position: relative;
+    flex: 1 1 0%;
+    margin-left: calc(-1rem);
+}
+
+div.css-1hvdhaz {
+    width: 419px;
+    position: relative;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    gap: 0rem;
+}
+.css-1ufdz57 {
+    width: 719px;
+    position: relative;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    gap: 0rem;
+}
+
+.css-vsyxl8 {
+    width: 688px;
+    position: relative;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    gap: 0rem;
+}
+
+.css-knfafl {
+    width: 892px;
+    position: relative;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    gap: 0rem;
+}
+
+
+
+
+
+.progress-bar-container:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+/* Styling the h2 tag by giving color,
+letter spacing, font-size etc.*/
+.progress-bar-container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+/* Styling the border and box
+effect of the progress bar*/
+.progress-bar {
+    width: 300px;
+    height: 10px;
+    margin-top: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgb(245, 159, 0);
+}
+
+/* Stylingthe background color of each
+animation and border radius */
+.percentage {
+    display: block;
+    height: 100%;
+    background-color: #FA8072;
+    border-radius: 5px;
+    animation: progress 5500ms ease-in 4;
+}
+
+/* Assigning width of each languages*/
+.c {
+    width: 85%;
+}
+
+.orgs {
+    width: 80%;
+}
+.inno {
+    width: 70%;
+}
+.logi {
+    width: 76%;
+}
+.actLearn {
+    width: 85%;
+}
+
+.progress-bar-container:not(:last-child) {
+    margin-bottom: 3px;
+}
+
+
+/* Animating the progress bar by
+initially starting from 0*/
+@keyframes progress {
+    from {
+        width: 0;
+        animation-delay: 40.1s, 20000ms;
+    }
+}
