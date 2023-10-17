@@ -11,10 +11,10 @@ local_css("style.css")
 
 image_col, text_col = st.columns([1.5, 4.5])
 with image_col:
-    #image = Image.open("Images/Badri_new1.png")
-    #new_image = image.resize((300, 250))
-    #st.image(new_image)
-    pass
+    image = Image.open("Images/Badri_new1.png")
+    new_image = image.resize((300, 250))
+    st.image(new_image)
+    
 
 with text_col:
     st.title("Badrinath Deshpande")
