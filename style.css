@@ -334,3 +334,17 @@ input[type=text], input[type=email], textarea {
     box-sizing: border-box;
     resize: vertical;
 }
+
+
+button[type=submit] {
+background-color : #04AA6D;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+button[type=submit]:hover {
+background-color : #45a049;
+}
