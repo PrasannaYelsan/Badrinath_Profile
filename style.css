@@ -321,3 +321,15 @@ initially starting from 0*/
         animation-delay: 40.1s, 20000ms;
     }
 }
+
+
+input[type=text], input[type=email], textarea {
+width : 100%;
+padding: 12px;
+border : 1px solid #ccc;
+border-radius: 4px;
+margin-bottom: 16px;
+margin-top: 6px;
+box-sizing: border-box;
+resize: vertical
+}
