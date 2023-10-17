@@ -4,6 +4,9 @@
   vertical-align: bottom;
 }
 
+[data-testid="stToolbar"] {
+        display: none
+}
 .type > span {
   color: #14f3db;
   display:grid;
