@@ -111,19 +111,19 @@ with text_carrer:
     st.markdown("### HOBBIES OR INTERESTS")
     sports_img, music_img, travel_img, photography_img = st.columns([0.5, 0.5, 0.5, 0.5])
     with sports_img:
-        image = Image.open('Images\sports.JPG')
+        image = Image.open('Images/sports.JPG')
         new_image = image.resize((50, 50))
         st.image(new_image)
     with music_img:
-        image = Image.open('Images\Music.JPG')
+        image = Image.open('Images/Music.JPG')
         new_image = image.resize((50, 50))
         st.image(new_image)
     with travel_img:
-        image = Image.open('Images\\travels.JPG')
+        image = Image.open('Images/travels.JPG')
         new_image = image.resize((50, 50))
         st.image(new_image)
     with photography_img:
-        image = Image.open('Images\photo.JPG')
+        image = Image.open('Images/photo.JPG')
         new_image = image.resize((50, 50))
         st.image(new_image)
 
