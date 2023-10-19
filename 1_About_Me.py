@@ -56,7 +56,7 @@ with image_col:
         st.markdown(f'<div style="font-size: 27px">{" Hello Good Evening..."}</div>', unsafe_allow_html=True)
     st.write("\n")
     st.title("My name is Badrinath Deshpande")
-    st.markdown("""### My name is Badrinath Deshpande""")
+    st.markdown("""## My name is Badrinath Deshpande""")
     st.write("\n")
     st.write("\n")
     btn_profile, btn_contactMe = st.columns(2)
