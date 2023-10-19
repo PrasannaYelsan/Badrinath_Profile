@@ -276,7 +276,7 @@ letter spacing, font-size etc.*/
 /* Styling the border and box
 effect of the progress bar*/
 .progress-bar {
-    width: 300px;
+    width: 260px;
     height: 10px;
     margin-top: 10px;
     border: 1px solid orange;
@@ -291,7 +291,7 @@ animation and border radius */
     height: 100%;
     background-color: #FA8072;
     border-radius: 5px;
-    animation: progress 5500ms ease-in 4;
+    animation: progress 5500ms ease-in 2;
 }
 
 /* Assigning width of each languages*/
