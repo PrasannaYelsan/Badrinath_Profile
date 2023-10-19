@@ -55,7 +55,6 @@ with image_col:
     if 16 <= current < 24:
         st.markdown(f'<div style="font-size: 27px">{" Hello Good Evening..."}</div>', unsafe_allow_html=True)
     st.write("\n")
-    st.title("My name is Badrinath Deshpande")
     st.markdown("""## My name is Badrinath Deshpande""")
     st.write("\n")
     st.write("\n")
