@@ -57,7 +57,6 @@ with image_col:
     st.write("\n")
     st.markdown("""## My name is Badrinath Deshpande""")
     st.write("\n")
-    st.write("\n")
     btn_profile, btn_contactMe = st.columns(2)
     with btn_profile:
         profile_click=st.button("Profile")
