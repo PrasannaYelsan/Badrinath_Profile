@@ -28,8 +28,7 @@ image_col, text_col = st.columns([3, 4])
 with image_col:
     st.write("\n")
     st.write("\n")
-    st.markdown('<p style="font-family:monospace; color:purple; font-size: 42px;">Welcome</p>',
-                unsafe_allow_html=True)
+    st.title("Welcome")
     st.write("\n")
     st.write("\n")
 
@@ -56,8 +55,7 @@ with image_col:
     if 16 <= current < 24:
         st.markdown(f'<div style="font-size: 27px">{" Hello Good Evening..."}</div>', unsafe_allow_html=True)
     st.write("\n")
-    st.markdown('<p style="font-family:monospace; color:purple; font-size: 32px;">My name is Badrinath Deshpande</p>',
-                unsafe_allow_html=True)
+    st.title("My name is Badrinath Deshpande")
     st.write("\n")
     st.write("\n")
     btn_profile, btn_contactMe = st.columns(2)
